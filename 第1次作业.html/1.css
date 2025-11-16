@@ -1,0 +1,16 @@
+
+#jpg{margin: auto;text-align: center;}
+.box{margin: auto;text-align: center;}
+.box input[type="text"]{width: 300px;height: 40px;}
+.box input[type="password"]{width: 300px;height: 40px;}
+.tick {
+    width: 400px;           /* 与输入框区域同宽 */
+    margin: 15px auto;       /* 水平居中 */
+    text-align: left;       /* 内容靠左 */
+    height: 40px;           /* 与输入框同高 */
+    display: flex;
+    align-items: center;    /* 垂直居中 */
+    padding-left: 50px;     /* 与账号密码输入框对齐 */
+}
+.up{background-color: red;width: 300px;height: 50px;margin: auto;text-align: center;}
+a{color: aliceblue;text-decoration: none;}

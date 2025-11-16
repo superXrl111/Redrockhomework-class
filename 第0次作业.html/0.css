@@ -1,0 +1,12 @@
+*{margin: auto;text-align: center;}
+#search input {
+    width: 450px;  
+    height: 40px;
+    padding: 0 15px;
+    font-size: 16px;
+    border: 2px solid #4e6ef2;
+    border-radius: 20px; 
+    outline: none;
+}
+
+
