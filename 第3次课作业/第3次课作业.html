@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let obj1={name:'MJ',gender:'male',age:18};
+        let obj2 =obj1;
+        function Person(){
+            this.name='MJ';
+            this.gender='male';
+            this.age=18;
+        }
+        let obj3 = new Person();
+        let arr=[];
+        arr.push(obj1, obj2,obj3);
+        console.table(arr);
+    </script>
+</body>
+</html>
